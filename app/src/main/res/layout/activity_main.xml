@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.MainActivity">
+
+<!--    <ImageView-->
+<!--        android:id="@+id/splash"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="@dimen/_300sdp"-->
+<!--        android:layout_centerInParent="true"-->
+<!--        android:layout_marginStart="15dp"-->
+<!--        android:layout_marginTop="165dp"-->
+<!--        android:layout_marginEnd="15dp"-->
+<!--        android:layout_marginBottom="15dp"-->
+<!--        android:padding="100dp"-->
+<!--        android:src="@drawable/chat" />-->
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="@dimen/_300sdp"
+        android:layout_height="@dimen/_300sdp"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/_150sdp"
+        android:id="@+id/splash"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/onlinechat"
+        />
+
+<!--    <ProgressBar-->
+<!--        android:id="@+id/pbicon"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@id/splash"-->
+<!--        android:layout_marginStart="175dp"-->
+<!--        android:layout_centerInParent="true"-->
+<!--        android:indeterminateTint="#0047ab"-->
+<!--        />-->
+<!--    <EditText-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_margin="16dp"-->
+<!--        android:hint="Enter your name"-->
+<!--        android:id="@+id/edittext"-->
+<!--        android:textSize="16sp"-->
+<!--        android:background="@drawable/edittext_design"-->
+<!--        android:padding="10dp"-->
+<!--        />-->
+
+<!--    <EditText-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_margin="16dp"-->
+<!--        android:hint="Mobile number"-->
+<!--        android:inputType="phone"-->
+<!--        android:id="@+id/mobile"-->
+<!--        android:textSize="16sp"-->
+<!--        android:background="@drawable/edittext_design"-->
+<!--        android:padding="10dp"-->
+<!--        android:layout_below="@id/edittext"-->
+<!--        />-->
+
+<!--    <Button-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/enterbtn"-->
+<!--        android:layout_below="@id/mobile"-->
+<!--        android:layout_marginStart="24dp"-->
+<!--        android:layout_marginEnd="24dp"-->
+<!--        android:text="Place Order"-->
+<!--        android:textColor="#ffffff"-->
+<!--        android:background="@color/design_default_color_primary_dark"-->
+<!--        />-->
+
+</LinearLayout>

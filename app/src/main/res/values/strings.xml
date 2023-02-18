@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ChatApp</string>
+    <string name="welcome">Welcome</string>
+    <string name="enter_order_details_to_continue">Enter order details to continue</string>
+    <string name="mobile">Mobile</string>
+    <string name="place_order">Place Order</string>
+    <string name="name">Name</string>
+    <string name="next">NEXT</string>
+    <string name="enter_customer_details">Enter customer details</string>
+</resources>

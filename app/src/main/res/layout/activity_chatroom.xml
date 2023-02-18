@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/relative"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:background="@drawable/edittext_design"
+    tools:context=".activities.chatroom">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/edit1" />
+
+    <EditText
+        android:id="@+id/edit1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_toStartOf="@id/txtview"
+        android:background="@drawable/edittext_design"
+        android:hint="Message..."
+        android:minHeight="48dp"
+        android:padding="8dp"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtview"
+        android:text="Send"
+        android:textSize="16sp"
+        android:padding="10dp"
+        android:visibility="invisible"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="16dp"
+        android:textColor="@color/design_default_color_primary"
+        />
+
+    <ImageView
+        android:id="@+id/imgview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="16dp"
+        android:layout_toEndOf="@id/edit1"
+        android:padding="8dp"
+        android:src="@drawable/ic_baseline_image_24"
+        app:tint="@color/design_default_color_primary" />
+
+</RelativeLayout>
